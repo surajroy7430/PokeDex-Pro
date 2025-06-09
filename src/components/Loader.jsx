@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Loader = () => {
-  return (
-    <div>Loading...</div>
-  )
-}
+  return <div className="p-2 text-center h-[80vh]">Loading...</div>;
+};
 
-export default Loader
+export default Loader;

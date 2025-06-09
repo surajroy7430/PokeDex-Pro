@@ -22,7 +22,7 @@ const pokemonSlice = createSlice({
       state.offset = 0;
     },
     setSort: (state, action) => {
-      state.sort(action.payload);
+      state.sort = action.payload;
     },
   },
   extraReducers: (builder) => {

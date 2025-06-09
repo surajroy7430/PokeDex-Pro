@@ -4,6 +4,6 @@ button, a {
   cursor: pointer;
 }
 button:disabled {
-  opacity: 5;
+  opacity: 0.5;
   pointer-events: none;
 }
